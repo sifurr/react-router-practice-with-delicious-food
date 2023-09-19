@@ -8,11 +8,13 @@ import About from "./components/About/About.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import SeaFood from "./Seafood/SeaFood.jsx";
 import MealDetails from "./components/MealDetails/MealDetails.jsx";
+import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 
 const router = new createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/sea-food",
