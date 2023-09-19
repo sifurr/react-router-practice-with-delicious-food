@@ -1,0 +1,17 @@
+.sea-food{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sea-food h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sea-food-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+

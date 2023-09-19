@@ -1,0 +1,17 @@
+.meal-card{
+    border: 1px solid tomato;
+    margin: 10px;
+    padding: 10px;
+}
+
+.meal-card h3, p {
+    text-align: center;
+}
+
+.meal-card h3{
+    text-transform: capitalize;
+}
+
+.meal-card img{
+    width: 100%;
+}
